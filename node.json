@@ -1,0 +1,112 @@
+[
+    {
+      "name"              : "node1",
+      "script"            : "app.js",
+      "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+      "merge_logs"        : false,
+      "watch"             : false,
+      "max_restarts"      : 10,
+      "exec_interpreter"  : "node",
+      "exec_mode"         : "fork_mode",
+      "env":
+      {
+        "NODE_ENV"        : "production",
+        "RPC_HOST"        : "localhost",
+        "RPC_PORT"        : "22001",
+        "LISTENING_PORT"  : "30303",
+        "INSTANCE_NAME"   : "node1",
+        "CONTACT_DETAILS" : "",
+        "WS_SERVER"       : "http://localhost:3000",
+        "WS_SECRET"       : "Hello",
+        "VERBOSITY"       : 2
+      }
+    },
+    {
+      "name"              : "node2",
+      "script"            : "app.js",
+      "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+      "merge_logs"        : false,
+      "watch"             : false,
+      "max_restarts"      : 10,
+      "exec_interpreter"  : "node",
+      "exec_mode"         : "fork_mode",
+      "env":
+      {
+        "NODE_ENV"        : "production",
+        "RPC_HOST"        : "localhost",
+        "RPC_PORT"        : "22002",
+        "LISTENING_PORT"  : "30303",
+        "INSTANCE_NAME"   : "node2",
+        "CONTACT_DETAILS" : "",
+        "WS_SERVER"       : "http://localhost:3000",
+        "WS_SECRET"       : "Hello",
+        "VERBOSITY"       : 2
+      }
+    },
+    {
+      "name"              : "node3",
+      "script"            : "app.js",
+      "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+      "merge_logs"        : false,
+      "watch"             : false,
+      "max_restarts"      : 10,
+      "exec_interpreter"  : "node",
+      "exec_mode"         : "fork_mode",
+      "env":
+      {
+        "NODE_ENV"        : "production",
+        "RPC_HOST"        : "localhost",
+        "RPC_PORT"        : "22003",
+        "LISTENING_PORT"  : "30303",
+        "INSTANCE_NAME"   : "node3",
+        "CONTACT_DETAILS" : "",
+        "WS_SERVER"       : "http://localhost:3000",
+        "WS_SECRET"       : "Hello",
+        "VERBOSITY"       : 2
+      }
+    },
+    {
+      "name"              : "node4",
+      "script"            : "app.js",
+      "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+      "merge_logs"        : false,
+      "watch"             : false,
+      "max_restarts"      : 10,
+      "exec_interpreter"  : "node",
+      "exec_mode"         : "fork_mode",
+      "env":
+      {
+        "NODE_ENV"        : "production",
+        "RPC_HOST"        : "localhost",
+        "RPC_PORT"        : "22004",
+        "LISTENING_PORT"  : "30303",
+        "INSTANCE_NAME"   : "node4",
+        "CONTACT_DETAILS" : "",
+        "WS_SERVER"       : "http://localhost:3000",
+        "WS_SECRET"       : "Hello",
+        "VERBOSITY"       : 2
+      }
+    },
+    {
+      "name"              : "node5",
+      "script"            : "app.js",
+      "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+      "merge_logs"        : false,
+      "watch"             : false,
+      "max_restarts"      : 10,
+      "exec_interpreter"  : "node",
+      "exec_mode"         : "fork_mode",
+      "env":
+      {
+        "NODE_ENV"        : "production",
+        "RPC_HOST"        : "localhost",
+        "RPC_PORT"        : "22005",
+        "LISTENING_PORT"  : "30303",
+        "INSTANCE_NAME"   : "node5",
+        "CONTACT_DETAILS" : "",
+        "WS_SERVER"       : "http://localhost:3000",
+        "WS_SECRET"       : "Hello",
+        "VERBOSITY"       : 2
+      }
+    }
+  ]
